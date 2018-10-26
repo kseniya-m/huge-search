@@ -1,0 +1,141 @@
+
+html {
+    height: 100%;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+}
+
+.hg {
+    padding-top: 40px;
+}
+
+form {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+
+.hg-input {
+    width: 100%;
+    padding: 0 80px 0 10px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    font-size: 80px;
+    color: #ec5a62;
+}
+
+/*it's a button*/
+.submit {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    text-indent: 80px;
+    overflow: hidden;
+    right: 0;
+    top: 20%;
+    bottom: 20%;
+    background: url(img/magnifier.svg) no-repeat center center;
+    background-size: 100%;
+    border: none;
+}
+
+.submit:hover {
+    transform: scale(1.2);
+    transition: 0.5s linear;
+
+}
+
+/* It's a placeholder */
+.hg-input::-webkit-input-placeholder {
+    color: #c2c2c2;
+}
+
+.hg-input:focus,
+.submit:focus {
+    outline: none;
+}
+
+.content {
+    color: #333;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 10.5%;
+    font-size: 0;
+}
+
+.block {
+    font-size: 15px;
+    width: 30%;
+    padding: 0 0 10px;
+    display: inline-block;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.block:nth-child(2) {
+    margin: 0 5%;
+}
+
+.block-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #c2c2c2;
+}
+
+.list a {
+    padding: 10px;
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(118, 117, 128, 0.05);
+    color: rgba(145, 145, 145, 0.7);
+}
+
+.list a:hover {
+    color: #EC5A62;
+}
+
+.list a:hover,
+.list a:focus {
+    background: rgba(118, 117, 128, 0.1);
+}
+
+.list img {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.list h3 {
+    vertical-align: middle;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+
+*, *:after, *:before {
+      box-sizing: border-box;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
